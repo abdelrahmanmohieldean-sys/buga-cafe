@@ -290,6 +290,10 @@ export const AmbientBackground: React.FC<AmbientBackgroundProps> = ({
 
   const { baseGradient, primaryLight, secondaryLight, organicMotion, accent, textureOpacity, backgroundImage, backgroundMotion } = preset;
 
+  // When a real photo exists, we use an image-forward rendering path
+  // that makes the photo clearly visible with a lightweight cinematic vignette
+  const hasPhoto = !!backgroundImage;
+
   return (
     <div
       aria-hidden="true"
@@ -297,7 +301,7 @@ export const AmbientBackground: React.FC<AmbientBackgroundProps> = ({
     >
       {/* =================================================================
           LAYER 1: Base Brand Gradient
-          Rich color foundation tailored specifically to the category
+          Always rendered as the deepest foundation
           ================================================================= */}
       <div
         className="absolute inset-0 w-full h-full transition-all duration-1000 ease-out"
@@ -307,30 +311,58 @@ export const AmbientBackground: React.FC<AmbientBackgroundProps> = ({
       />
 
       {/* =================================================================
-          LAYER 1b: Photographic Background Image (if defined)
-          Fills the section with a real image and applies slow cinematic
-          parallax/scale motion. Sits above the base gradient.
+          LAYER 1b: Photographic Background Image (when available)
+          The photo is the HERO — clearly visible and cinematic.
+          Uses Ken Burns slow-motion parallax for the alive feeling.
           ================================================================= */}
-      {backgroundImage && (
+      {hasPhoto && (
         <>
-          {/* The image itself — slow breathing parallax */}
+          {/* The photo — full-bleed, mobile-portrait optimized, animated */}
           <div
-            className="absolute inset-0 w-full h-full will-change-transform"
+            className="absolute inset-[-8%] w-[116%] h-[116%] will-change-transform"
             style={{
               backgroundImage: `url('${backgroundImage}')`,
               backgroundSize: "cover",
-              backgroundPosition: "center",
+              backgroundPosition: "center 40%",
               backgroundRepeat: "no-repeat",
               animation: backgroundMotion
                 ? `bg-cinematic-breathe ${backgroundMotion.duration} ease-in-out infinite alternate`
                 : "bg-cinematic-breathe 22s ease-in-out infinite alternate",
             }}
           />
-          {/* Dark overlay: keeps image moody and lets light blooms glow through */}
+
+          {/* Cinematic vignette: dark edges for readability, transparent center to show photo */}
           <div
             className="absolute inset-0 w-full h-full"
             style={{
-              background: `linear-gradient(${baseGradient.angle}, ${baseGradient.from}cc 0%, ${baseGradient.via}99 40%, ${baseGradient.from}bb 100%)`,
+              background: `
+                radial-gradient(ellipse 85% 70% at 50% 45%, transparent 0%, ${baseGradient.from}40 55%, ${baseGradient.from}90 100%)
+              `,
+            }}
+          />
+
+          {/* Top edge fade — ensures category header text readability */}
+          <div
+            className="absolute inset-x-0 top-0 h-36 sm:h-44 pointer-events-none"
+            style={{
+              background: `linear-gradient(to bottom, ${baseGradient.from}cc 0%, ${baseGradient.from}80 40%, transparent 100%)`,
+            }}
+          />
+
+          {/* Bottom edge fade — ensures card area has enough contrast */}
+          <div
+            className="absolute inset-x-0 bottom-0 h-28 sm:h-36 pointer-events-none"
+            style={{
+              background: `linear-gradient(to top, ${baseGradient.from}bb 0%, ${baseGradient.from}60 40%, transparent 100%)`,
+            }}
+          />
+
+          {/* Subtle brightness breathing overlay — makes the image feel alive */}
+          <div
+            className="absolute inset-0 w-full h-full mix-blend-soft-light pointer-events-none"
+            style={{
+              background: `radial-gradient(ellipse 90% 80% at 40% 45%, rgba(255,255,255,0.06) 0%, transparent 70%)`,
+              animation: "bg-light-breathe 8s ease-in-out infinite alternate",
             }}
           />
         </>
@@ -338,76 +370,92 @@ export const AmbientBackground: React.FC<AmbientBackgroundProps> = ({
 
       {/* =================================================================
           LAYER 2: Atmospheric Light Blooms
-          Luminous, breathing radial light sources
+          When photo is present, these are very subtle accent glows.
+          When no photo, they are the primary visual atmosphere.
           ================================================================= */}
       {/* Primary Light Bloom */}
       <div
-        className="absolute rounded-full blur-[65px] will-change-transform transition-all duration-1000"
+        className="absolute rounded-full will-change-transform transition-all duration-1000"
         style={{
-          width: primaryLight.size,
-          height: primaryLight.size,
-          left: `calc(${primaryLight.x}% - ${primaryLight.size} / 2)`,
-          top: `calc(${primaryLight.y}% - ${primaryLight.size} / 2)`,
+          width: hasPhoto ? "400px" : primaryLight.size,
+          height: hasPhoto ? "400px" : primaryLight.size,
+          left: `calc(${primaryLight.x}% - ${hasPhoto ? "400px" : primaryLight.size} / 2)`,
+          top: `calc(${primaryLight.y}% - ${hasPhoto ? "400px" : primaryLight.size} / 2)`,
           background: `radial-gradient(circle, ${primaryLight.color} 0%, transparent 68%)`,
+          filter: hasPhoto ? "blur(80px)" : "blur(65px)",
+          opacity: hasPhoto ? 0.25 : 1,
           animation: `ambient-light-breathe-1 ${primaryLight.pulseDuration} ease-in-out infinite`,
         }}
       />
 
       {/* Secondary Light Bloom */}
       <div
-        className="absolute rounded-full blur-[70px] will-change-transform transition-all duration-1000"
+        className="absolute rounded-full will-change-transform transition-all duration-1000"
         style={{
-          width: secondaryLight.size,
-          height: secondaryLight.size,
-          left: `calc(${secondaryLight.x}% - ${secondaryLight.size} / 2)`,
-          top: `calc(${secondaryLight.y}% - ${secondaryLight.size} / 2)`,
+          width: hasPhoto ? "350px" : secondaryLight.size,
+          height: hasPhoto ? "350px" : secondaryLight.size,
+          left: `calc(${secondaryLight.x}% - ${hasPhoto ? "350px" : secondaryLight.size} / 2)`,
+          top: `calc(${secondaryLight.y}% - ${hasPhoto ? "350px" : secondaryLight.size} / 2)`,
           background: `radial-gradient(circle, ${secondaryLight.color} 0%, transparent 70%)`,
+          filter: hasPhoto ? "blur(85px)" : "blur(70px)",
+          opacity: hasPhoto ? 0.2 : 1,
           animation: `ambient-light-breathe-2 ${secondaryLight.pulseDuration} ease-in-out infinite`,
         }}
       />
 
       {/* =================================================================
           LAYER 3: Category-Specific Organic Movement
-          Unmistakably visible procedural steam, waves, caustics & blooms
+          When photo is present, this is very subdued so it doesn't cover the image.
+          When no photo, it's the primary visual motion.
           ================================================================= */}
-      <OrganicMotionLayer
-        type={organicMotion.type}
-        accentColor={organicMotion.accentColor}
-        secondaryColor={organicMotion.secondaryColor}
-        opacity={organicMotion.opacity}
-        duration={organicMotion.duration}
-        idPrefix={categoryId}
-      />
+      {!hasPhoto && (
+        <OrganicMotionLayer
+          type={organicMotion.type}
+          accentColor={organicMotion.accentColor}
+          secondaryColor={organicMotion.secondaryColor}
+          opacity={organicMotion.opacity}
+          duration={organicMotion.duration}
+          idPrefix={categoryId}
+        />
+      )}
 
       {/* =================================================================
           LAYER 4: Filmic Texture & Micro-Grain Depth
+          Very subtle — adds tactile depth to both photo and gradient modes
           ================================================================= */}
       <div
         className="absolute inset-0 w-full h-full mix-blend-overlay pointer-events-none transition-opacity duration-1000"
         style={{
-          opacity: textureOpacity,
+          opacity: hasPhoto ? 0.02 : textureOpacity,
           backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
         }}
       />
 
       {/* =================================================================
           LAYER 5: Category Accent Glow
+          When photo exists, this is hidden — the photo IS the accent.
           ================================================================= */}
-      <div
-        className="absolute rounded-full blur-[60px] transition-all duration-1000"
-        style={{
-          width: accent.spread,
-          height: accent.spread,
-          left: `calc(${accent.x}% - ${accent.spread} / 2)`,
-          top: `calc(${accent.y}% - ${accent.spread} / 2)`,
-          background: `radial-gradient(circle, ${accent.glowColor} 0%, transparent 65%)`,
-          opacity: accent.opacity,
-        }}
-      />
+      {!hasPhoto && (
+        <div
+          className="absolute rounded-full blur-[60px] transition-all duration-1000"
+          style={{
+            width: accent.spread,
+            height: accent.spread,
+            left: `calc(${accent.x}% - ${accent.spread} / 2)`,
+            top: `calc(${accent.y}% - ${accent.spread} / 2)`,
+            background: `radial-gradient(circle, ${accent.glowColor} 0%, transparent 65%)`,
+            opacity: accent.opacity,
+          }}
+        />
+      )}
 
-      {/* Subtle Bottom & Top Edge Transitions */}
-      <div className="absolute inset-x-0 top-0 h-24 pointer-events-none bg-gradient-to-b from-[#041109]/40 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 h-24 pointer-events-none bg-gradient-to-t from-[#041109]/40 to-transparent" />
+      {/* Edge transitions — only for non-photo mode (photo mode has its own vignette above) */}
+      {!hasPhoto && (
+        <>
+          <div className="absolute inset-x-0 top-0 h-24 pointer-events-none bg-gradient-to-b from-[#041109]/40 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-24 pointer-events-none bg-gradient-to-t from-[#041109]/40 to-transparent" />
+        </>
+      )}
     </div>
   );
 };
