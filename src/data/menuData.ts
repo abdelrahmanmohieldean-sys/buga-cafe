@@ -83,6 +83,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 60.0,
         formattedPrice: "60.00 EGP",
         badge: "Sweet Indulgence",
+        image: "/images/drinks/Hazelnut Chocolate Café Delight.png",
+        imageAlt: "قهوة نوتيلا — Nutella Coffee",
         isAvailable: true,
       },
       {
@@ -112,6 +114,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميكاتو سنجل",
         price: 40.0,
         formattedPrice: "40.00 EGP",
+        image: "/images/drinks/Cozy BU-GA Café Macchiato Moment.png",
+        imageAlt: "ميكاتو سنجل — Single Macchiato",
         isAvailable: true,
       },
       {
@@ -133,6 +137,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionEn: "Choice of Caramel, Hazelnut, or Vanilla",
         descriptionAr: "كراميل - بندق - فانيليا",
         ingredients: ["Caramel", "Hazelnut", "Vanilla"],
+        image: "/images/drinks/Caramel Vanilla Latte Café Scene.png",
+        imageAlt: "لاتيه فليفر — Flavored Latte",
         isAvailable: true,
       },
       {
@@ -142,6 +148,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 70.0,
         formattedPrice: "70.00 EGP",
         badge: "Specialty",
+        image: "/images/drinks/Cozy BU-GA Café Latte Still Life.png",
+        imageAlt: "فلات وايت — Flat White",
         isAvailable: true,
       },
       {
@@ -163,6 +171,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionEn: "Dark or White chocolate infusion",
         descriptionAr: "دارك أو وايت",
         ingredients: ["Dark Chocolate", "White Chocolate"],
+        image: "/images/drinks/Cozy Mocha Café Delight.png",
+        imageAlt: "موكا — Mocha",
         isAvailable: true,
       },
       {
@@ -171,6 +181,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "هوت امريكانا",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Steaming BU-GA Café Coffee Still Life.png",
+        imageAlt: "هوت امريكانا — Hot Americano",
         isAvailable: true,
       },
       {
@@ -179,6 +191,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "كورنادو",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Cozy Café Latte Art Still Life.png",
+        imageAlt: "كورنادو — Cortado",
         isAvailable: true,
       },
       {
@@ -208,6 +222,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس شوكليت",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Moody BU-GA Café Iced Chocolate.png",
+        imageAlt: "آيس شوكليت — Iced Chocolate",
         isAvailable: true,
       },
       {
@@ -216,6 +232,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس لاتيه",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Cinematic Iced Latte Café Still Life.png",
+        imageAlt: "آيس لاتيه — Iced Latte",
         isAvailable: true,
       },
       {
@@ -224,6 +242,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس موكا",
         price: 75.0,
         formattedPrice: "75.00 EGP",
+        image: "/images/drinks/Iced Mocha Café Indulgence.png",
+        imageAlt: "آيس موكا — Iced Mocha",
         isAvailable: true,
       },
       {
@@ -254,6 +274,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس كابتشينو",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Iced Café Latte with Cocoa Foam.png",
+        imageAlt: "آيس كابتشينو — Iced Cappuccino",
         isAvailable: true,
       },
       {
@@ -262,6 +284,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس كراميل ميكاتو",
         price: 75.0,
         formattedPrice: "75.00 EGP",
+        image: "/images/drinks/Iced Caramel Café Delight.png",
+        imageAlt: "آيس كراميل ميكاتو — Iced Caramel Macchiato",
         isAvailable: true,
       },
       {
@@ -270,6 +294,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "آيس امريكانو",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Kalter Kaffee im warmen Cafélicht.png",
+        imageAlt: "آيس امريكانو — Iced Americano",
         isAvailable: true,
       },
       {
@@ -278,6 +304,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فرابتشينو",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Decadent BU-GA Café Mocha Frappe.png",
+        imageAlt: "فرابتشينو — Classic Frappuccino",
         isAvailable: true,
       },
       {
@@ -289,6 +317,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionEn: "Choice of Caramel, Chocolate, Hazelnut, or Vanilla",
         descriptionAr: "كراميل - شوكليت - بندق - فانيليا",
         ingredients: ["Caramel", "Chocolate", "Hazelnut", "Vanilla"],
+        image: "/images/drinks/Caramel Whipped Cream Café Frappé.png",
+        imageAlt: "فرابتشينو فليفر — Flavored Frappuccino",
         isAvailable: true,
       },
       {
@@ -298,6 +328,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Popular",
+        image: "/images/drinks/Cookies-and-Cream Café Frappé.png",
+        imageAlt: "فرابتشينو اوريو — Oreo Frappuccino",
         isAvailable: true,
       },
       {
@@ -306,6 +338,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فرابتشينو نوتيلا",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Chocolate Hazelnut Café Indulgence.png",
+        imageAlt: "فرابتشينو نوتيلا — Nutella Frappuccino",
         isAvailable: true,
       },
       {
@@ -314,6 +348,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فرابتشينو كيندر",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Decadent Chocolate Frappe Café Delight.png",
+        imageAlt: "فرابتشينو كيندر — Kinder Frappuccino",
         isAvailable: true,
       },
       {
@@ -509,6 +545,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك شوكليت",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Decadent BU-GA Café Chocolate Milkshake.png",
+        imageAlt: "ميلك شيك شوكليت — Chocolate Milkshake",
         isAvailable: true,
       },
       {
@@ -517,6 +555,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك فراولة",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Decadent Strawberry Café Milkshake.png",
+        imageAlt: "ميلك شيك فراولة — Strawberry Milkshake",
         isAvailable: true,
       },
       {
@@ -525,6 +565,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك مانجو",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Luxurious Mango Café Milkshake Delight.png",
+        imageAlt: "ميلك شيك مانجو — Mango Milkshake",
         isAvailable: true,
       },
       {
@@ -533,6 +575,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك كراميل",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Caramel Café Frappé Delight.png",
+        imageAlt: "ميلك شيك كراميل — Caramel Milkshake",
         isAvailable: true,
       },
       {
@@ -541,6 +585,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك بلوبيري",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Blueberry Café Frappe Delight.png",
+        imageAlt: "ميلك شيك بلوبيري — Blueberry Milkshake",
         isAvailable: true,
       },
       {
@@ -550,6 +596,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Favorite",
+        image: "/images/drinks/Decadent Caramel Chocolate Café Shake.png",
+        imageAlt: "ميلك شيك سنيكرز — Snickers Milkshake",
         isAvailable: true,
       },
       {
@@ -559,6 +607,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Premium",
+        image: "/images/drinks/Decadent Pistachio Café Frappé.png",
+        imageAlt: "ميلك بيستاشيو — Pistachio Milkshake",
         isAvailable: true,
       },
       {
@@ -567,6 +617,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك موز",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Café Banana Caramel Milkshake Delight.png",
+        imageAlt: "ميلك موز — Banana Milkshake",
         isAvailable: true,
       },
       {
@@ -576,6 +628,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Best Seller",
+        image: "/images/drinks/Decadent Chocolate Hazelnut Café Shake.png",
+        imageAlt: "ميلك نوتيلا — Nutella Milkshake",
         isAvailable: true,
       },
       {
@@ -584,6 +638,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك كيندر",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Decadent Kinder Café Milkshake Delight.png",
+        imageAlt: "ميلك كيندر — Kinder Milkshake",
         isAvailable: true,
       },
       {
@@ -593,6 +649,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Signature",
+        image: "/images/drinks/Decadent Lotus Caramel Café Shake.png",
+        imageAlt: "ميلك لوتس — Lotus Milkshake",
         isAvailable: true,
       },
       {
@@ -601,6 +659,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك أوريو",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Cookies-and-Cream Café Indulgence.png",
+        imageAlt: "ميلك أوريو — Oreo Milkshake",
         isAvailable: true,
       },
       {
@@ -609,6 +669,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك وايت أوريو",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Vanilla Cookie Café Milkshake.png",
+        imageAlt: "ميلك وايت أوريو — White Oreo Milkshake",
         isAvailable: true,
       },
       {
@@ -617,6 +679,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك كيت كات",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/Luxurious Chocolate Wafer Café Milkshake.png",
+        imageAlt: "ميلك كيت كات — KitKat Milkshake",
         isAvailable: true,
       },
       {
@@ -647,6 +711,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 70.0,
         formattedPrice: "70.00 EGP",
         badge: "Egyptian Classic",
+        image: "/images/drinks/Café Mango Glow Still Life.png",
+        imageAlt: "مانجو — Fresh Mango Juice",
         isAvailable: true,
       },
       {
@@ -655,6 +721,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فراولة",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Cinematic Strawberry Café Smoothie.png",
+        imageAlt: "فراولة — Fresh Strawberry Juice",
         isAvailable: true,
       },
       {
@@ -671,6 +739,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "جوافة باللبن",
         price: 75.0,
         formattedPrice: "75.00 EGP",
+        image: "/images/drinks/Creamy Guava Café Smoothie.png",
+        imageAlt: "جوافة باللبن — Guava with Milk",
         isAvailable: true,
       },
       {
@@ -679,6 +749,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ليمون",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/Vintage Café Lemonade Glow.png",
+        imageAlt: "ليمون — Fresh Lemon Juice",
         isAvailable: true,
       },
       {
@@ -688,6 +760,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 60.0,
         formattedPrice: "60.00 EGP",
         badge: "Refreshing",
+        image: "/images/drinks/Mint-Lime Café Cooler.png",
+        imageAlt: "ليمون نعناع — Lemon Mint Juice",
         isAvailable: true,
       },
       {
@@ -712,6 +786,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "موز باللبن",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Café Banana Smoothie Still Life.png",
+        imageAlt: "موز باللبن — Banana with Milk",
         isAvailable: true,
       },
       {
@@ -720,6 +796,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "برتقال",
         price: 65.0,
         formattedPrice: "65.00 EGP",
+        image: "/images/drinks/Premium Orange Juice Café Still Life.png",
+        imageAlt: "برتقال — Fresh Orange Juice",
         isAvailable: true,
       },
       {
@@ -871,6 +949,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي فراولة",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Strawberry Smoothie at BU-GA Café.png",
+        imageAlt: "اسموزي فراولة — Strawberry Smoothie",
         isAvailable: true,
       },
       {
@@ -953,6 +1033,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionAr: "صودا + ليمون فريش + نعناع فريش",
         badge: "Refreshing",
         ingredients: ["Soda", "Fresh Lime", "Fresh Mint"],
+        image: "/images/drinks/Mint-Lime Café Refreshment.png",
+        imageAlt: "موهيتو كلاسيك — Classic Mojito",
         isAvailable: true,
       },
       {
