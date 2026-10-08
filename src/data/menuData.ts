@@ -42,6 +42,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 40.0,
         formattedPrice: "40.00 EGP",
         badge: "Classic",
+        image: "/images/drinks/turkish-coffee.png",
+        imageAlt: "قهوة تركي — Turkish Coffee",
         isAvailable: true,
       },
       {
@@ -50,6 +52,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "قهوة تركي دابل",
         price: 55.0,
         formattedPrice: "55.00 EGP",
+        image: "/images/drinks/double-turkish-coffee.png",
+        imageAlt: "قهوة تركي دابل — Double Turkish Coffee",
         isAvailable: true,
       },
       {
@@ -58,6 +62,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "قهوة فرنسي",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/french-coffee.png",
+        imageAlt: "قهوة فرنسي — French Coffee",
         isAvailable: true,
       },
       {
@@ -66,6 +72,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "قهوة بندق",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/hazelnut-coffee.png",
+        imageAlt: "قهوة بندق — Hazelnut Coffee",
         isAvailable: true,
       },
       {
@@ -83,6 +91,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسبريسو سنجل",
         price: 35.0,
         formattedPrice: "35.00 EGP",
+        image: "/images/drinks/single-espresso.jpg",
+        imageAlt: "اسبريسو سنجل — Single Espresso",
         isAvailable: true,
       },
       {
@@ -92,6 +102,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 50.0,
         formattedPrice: "50.00 EGP",
         badge: "Barista Favorite",
+        image: "/images/drinks/double-espresso.jpg",
+        imageAlt: "اسبريسو دبل — Double Espresso",
         isAvailable: true,
       },
       {
@@ -108,6 +120,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "لاتيه",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/caffe-latte.jpg",
+        imageAlt: "لاتيه — Caffè Latte",
         isAvailable: true,
       },
       {
@@ -136,6 +150,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "كابتشينو",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/cappuccino.jpg",
+        imageAlt: "كابتشينو — Cappuccino",
         isAvailable: true,
       },
       {
@@ -217,6 +233,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Best Seller",
+        image: "/images/drinks/iced-spanish-latte.jpg",
+        imageAlt: "آيس سبانيش لاتيه — Iced Spanish Latte",
         isAvailable: true,
       },
       {
@@ -226,6 +244,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Signature",
+        image: "/images/drinks/iced-pistachio-latte.jpg",
+        imageAlt: "آيس بستاشيو لاتيه — Iced Pistachio Latte",
         isAvailable: true,
       },
       {

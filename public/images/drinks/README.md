@@ -27,6 +27,28 @@ Every drink photo must follow **one unified visual identity**:
 
 ---
 
+## Master Catalog & Complete Prompt Engineering Guide
+
+For the full item-by-item prompt specifications across all 112 menu items, see:
+[`IMAGE_CATALOG_AND_PROMPTS.md`](./IMAGE_CATALOG_AND_PROMPTS.md)
+
+---
+
+## Active Product Images (Live in Menu)
+
+- `turkish-coffee.png` (Item: `hc-1` Turkish Coffee / قهوة تركي)
+- `double-turkish-coffee.png` (Item: `hc-2` Double Turkish Coffee / قهوة تركي دابل)
+- `french-coffee.png` (Item: `hc-3` French Coffee / قهوة فرنسي)
+- `hazelnut-coffee.png` (Item: `hc-4` Hazelnut Coffee / قهوة بندق)
+- `single-espresso.jpg` (Item: `hc-6` Single Espresso / اسبريسو سنجل)
+- `double-espresso.jpg` (Item: `hc-7` Double Espresso / اسبريسو دبل)
+- `caffe-latte.jpg` (Item: `hc-9` Caffè Latte / لاتيه)
+- `cappuccino.jpg` (Item: `hc-12` Cappuccino / كابتشينو)
+- `iced-spanish-latte.jpg` (Item: `cc-4` Iced Spanish Latte / آيس سبانيش لاتيه)
+- `iced-pistachio-latte.jpg` (Item: `cc-5` Iced Pistachio Latte / آيس بستاشيو لاتيه)
+
+---
+
 ## Recommended File Naming Structure
 
 Match each image to its category and item name, then reference it in `src/data/menuData.ts` under the `image` field:
