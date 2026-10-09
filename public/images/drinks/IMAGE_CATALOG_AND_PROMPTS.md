@@ -15,8 +15,9 @@ This master specification defines the exact visual assets, filenames, and AI ima
 
 ## Summary of Menu Assets
 - **Total Menu Items:** 112
-- **Live Connected Images:** 10
-- **Pending Generation:** 102
+- **Live Connected Images:** 78
+- **Pending Generation:** 34
+- **Audit Report Reference:** `public/images/drinks/IMAGE_AUDIT_REPORT.md`
 
 ---
 

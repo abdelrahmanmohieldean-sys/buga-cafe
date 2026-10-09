@@ -450,6 +450,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "شاي",
         price: 25.0,
         formattedPrice: "25.00 EGP",
+        image: "/images/drinks/Steaming BU-GA Café Tea Still Life.png",
+        imageAlt: "شاي مصري تقليدي — Egyptian Tea",
         isAvailable: true,
       },
       {
@@ -458,6 +460,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "شاي أخضر",
         price: 35.0,
         formattedPrice: "35.00 EGP",
+        image: "/images/drinks/Steaming Mint Green Tea Café Display.png",
+        imageAlt: "شاي أخضر بالنعناع — Green Tea",
         isAvailable: true,
       },
       {
@@ -466,6 +470,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "شاي لبن",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/Steaming Chai at a Cozy Café.png",
+        imageAlt: "شاي باللبن — Tea with Milk",
         isAvailable: true,
       },
       {
@@ -477,6 +483,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionEn: "Anise, Fresh Mint, or Karkadeh (Hibiscus)",
         descriptionAr: "ينسون أو نعناع أو كركديه",
         ingredients: ["Anise", "Mint", "Karkadeh"],
+        image: "/images/drinks/Cozy Bu-Ga Café Herbal Tea Still Life.png",
+        imageAlt: "مشروب أعشاب طبيعية — Herbal Infusion",
         isAvailable: true,
       },
       {
@@ -489,6 +497,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionAr: "برتقال - ليمون - نعناع - عسل",
         badge: "Immunity Booster",
         ingredients: ["Orange", "Lemon", "Mint", "Honey"],
+        image: "/images/drinks/Café Spice Infusion Still Life.png",
+        imageAlt: "هوت ميكس بوجا — BU-GA Hot Mix",
         isAvailable: true,
       },
       {
@@ -497,6 +507,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "هوت ليمون",
         price: 30.0,
         formattedPrice: "30.00 EGP",
+        image: "/images/drinks/Steaming Lemon Mint Café Mug.png",
+        imageAlt: "هوت ليمون بالنعناع والعسل — Hot Lemon",
         isAvailable: true,
       },
       {
@@ -505,6 +517,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "أبل سيدر",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/16192f4a-f46c-430c-8423-056dcdd0d875.png",
+        imageAlt: "أبل سيدر بالقرفة — Hot Apple Cider",
         isAvailable: true,
       },
       {
@@ -513,6 +527,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "نسكافيه بلاك",
         price: 50.0,
         formattedPrice: "50.00 EGP",
+        image: "/images/drinks/Cozy BU-GA Café Coffee Still Life.png",
+        imageAlt: "نسكافيه بلاك — Nescafé Black",
         isAvailable: true,
       },
       {
@@ -521,6 +537,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "نسكافيه ميلك",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Cozy Spiced Café Latte Still Life.png",
+        imageAlt: "نسكافيه بالحليب — Nescafé with Milk",
         isAvailable: true,
       },
       {
@@ -530,6 +548,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 70.0,
         formattedPrice: "70.00 EGP",
         badge: "Traditional Specialty",
+        image: "/images/drinks/Steaming BU-GA Café Salep Still Life.png",
+        imageAlt: "سحلب بالمكسرات والقرفة — Sahlab with Nuts",
         isAvailable: true,
       },
     ],
@@ -837,6 +857,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميكس مانجو فراولة",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Strawberry Mango Café Glow.png",
+        imageAlt: "ميكس مانجو وفراولة — Mix Mango & Strawberry",
         isAvailable: true,
       },
       {
@@ -845,6 +867,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميكس بيري",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Berry Café Bliss on Copper.png",
+        imageAlt: "ميكس بيري فريش — Mix Berry Juice",
         isAvailable: true,
       },
       {
@@ -862,6 +886,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 90.0,
         formattedPrice: "90.00 EGP",
         badge: "Chef Special",
+        image: "/images/drinks/Tropical BU-GA Café Smoothie Still Life.png",
+        imageAlt: "كوكتيل فلوريدة طبقات — Florida Cocktail",
         isAvailable: true,
       },
       {
@@ -955,6 +981,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي مانجو",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Golden Mango Café Delight.png",
+        imageAlt: "اسموزي مانجو — Mango Smoothie",
         isAvailable: true,
       },
       {
@@ -982,6 +1010,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 70.0,
         formattedPrice: "70.00 EGP",
         badge: "Cooling",
+        image: "/images/drinks/Citrus Mint Café Refresher.png",
+        imageAlt: "اسموزي ليمون نعناع — Lemon Mint Smoothie",
         isAvailable: true,
       },
       {
@@ -990,6 +1020,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي بلوبيري",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Luxurious Blueberry Café Smoothie.png",
+        imageAlt: "اسموزي بلوبيري — Blueberry Smoothie",
         isAvailable: true,
       },
       {
@@ -998,6 +1030,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي كولا",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/BU-GA Café Cola Mint Cooler.png",
+        imageAlt: "اسموزي كولا بالنعناع — Cola Smoothie",
         isAvailable: true,
       },
       {
@@ -1022,6 +1056,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي كيوي",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Kiwi Smoothie at BU-GA Café.png",
+        imageAlt: "اسموزي كيوي فريش — Kiwi Smoothie",
         isAvailable: true,
       },
     ],
@@ -1061,6 +1097,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionAr: "فليفر من اختيارك + ليمون فريش + نعناع فريش + صودا",
         badge: "Popular",
         ingredients: ["Flavored Syrup", "Fresh Lime", "Fresh Mint", "Soda"],
+        image: "/images/drinks/BU-GA Café Lime Mint Fizz.png",
+        imageAlt: "موهيتو إسبشيال — Special Mojito",
         isAvailable: true,
       },
       {
@@ -1117,6 +1155,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "بيبسي - ميرندا - سفن أب / V COLA",
         price: 40.0,
         formattedPrice: "40.00 EGP",
+        image: "/images/drinks/BU-GA Café Iced Cola Delight.png",
+        imageAlt: "مشروبات غازية مثلجة — Soft Drinks",
         isAvailable: true,
       },
       {
