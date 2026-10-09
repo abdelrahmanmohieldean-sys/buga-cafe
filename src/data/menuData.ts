@@ -1165,6 +1165,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "شـويبس",
         price: 40.0,
         formattedPrice: "40.00 EGP",
+        image: "/images/drinks/BU-GA Café Lemon-Lime Fizz.png",
+        imageAlt: "شـويبس — Schweppes",
         isAvailable: true,
       },
       {
@@ -1173,6 +1175,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فيـــروز",
         price: 40.0,
         formattedPrice: "40.00 EGP",
+        image: "/images/drinks/BU-GA Café Orange Fizz.png",
+        imageAlt: "فيـــروز — Fayrouz",
         isAvailable: true,
       },
       {
@@ -1181,6 +1185,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "شيري كولا",
         price: 75.0,
         formattedPrice: "75.00 EGP",
+        image: "/images/drinks/BU-GA Café Citrus Cola Still Life.png",
+        imageAlt: "شيري كولا — Cherry Cola",
         isAvailable: true,
       },
       {
