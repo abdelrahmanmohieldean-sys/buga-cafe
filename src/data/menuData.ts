@@ -1301,6 +1301,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "3 بولة آيس كريم",
         price: 60.0,
         formattedPrice: "60.00 EGP",
+        image: "/images/drinks/Gourmet Café Ice Cream Sundae.png",
+        imageAlt: "3 بولة آيس كريم — 3 Scoops Ice Cream",
         isAvailable: true,
       },
       {
