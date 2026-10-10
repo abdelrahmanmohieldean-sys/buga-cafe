@@ -723,6 +723,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك وايت كيت كات",
         price: 90.0,
         formattedPrice: "90.00 EGP",
+        image: "/images/drinks/White Chocolate KitKat Café Milkshake.png",
+        imageAlt: "ميلك وايت كيت كات — White KitKat Milkshake",
         isAvailable: true,
       },
     ],
@@ -765,6 +767,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "جوافة",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Premium Guava Café Drink Still Life.png",
+        imageAlt: "جوافة فريش — Fresh Guava Juice",
         isAvailable: true,
       },
       {
@@ -804,6 +808,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "بطيخ",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Watermelon Café Delight.png",
+        imageAlt: "بطيخ فريش — Fresh Watermelon Juice",
         isAvailable: true,
       },
       {
@@ -812,6 +818,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "بطيخ نعناع",
         price: 75.0,
         formattedPrice: "75.00 EGP",
+        image: "/images/drinks/Watermelon Mint Café Cooler.png",
+        imageAlt: "بطيخ نعناع — Watermelon Mint Juice",
         isAvailable: true,
       },
       {
@@ -841,6 +849,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Signature Mix",
+        image: "/images/drinks/Tropical Mango Kiwi Café Smoothie.png",
+        imageAlt: "ميكس مانجو كيوي — Mix Mango & Kiwi",
         isAvailable: true,
       },
       {
@@ -849,6 +859,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميكس مانجو خوخ",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Mango Peach Smoothie at BU-GA Café.png",
+        imageAlt: "ميكس مانجو خوخ — Mix Mango & Peach",
         isAvailable: true,
       },
       {
@@ -877,6 +889,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميكس خوخ فراولة",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Peach Strawberry Café Smoothie.png",
+        imageAlt: "ميكس خوخ فراولة — Mix Peach & Strawberry",
         isAvailable: true,
       },
       {
@@ -896,6 +910,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "جوافة جوز الهند",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Guava Coconut Café Smoothie.png",
+        imageAlt: "جوافة جوز الهند — Guava & Coconut",
         isAvailable: true,
       },
     ],
@@ -918,6 +934,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Pure Organic Honey",
+        image: "/images/drinks/Honey Granola Café Dream.png",
+        imageAlt: "زبادو عسل — Honey Zado",
         isAvailable: true,
       },
       {
@@ -927,6 +945,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Popular",
+        image: "/images/drinks/Mango Mint Café Parfait Still Life.png",
+        imageAlt: "زبادو مانجو — Mango Zado",
         isAvailable: true,
       },
       {
@@ -935,6 +955,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "زبادو فراولة",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Strawberry Cream Café Delight.png",
+        imageAlt: "زبادو فراولة — Strawberry Zado",
         isAvailable: true,
       },
       {
@@ -943,6 +965,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "زبادو كيوي",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Kiwi Café Smoothie Delight.png",
+        imageAlt: "زبادو كيوي — Kiwi Zado",
         isAvailable: true,
       },
       {
@@ -951,6 +975,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "زبادو بلوبيري",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Blueberry Café Dream with Mint and Cream.png",
+        imageAlt: "زبادو بلوبيري — Blueberry Zado",
         isAvailable: true,
       },
       {
@@ -960,6 +986,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Specialty",
+        image: "/images/drinks/Tropical Fruit Yogurt Café Delight.png",
+        imageAlt: "زبادو فروت — Mixed Fruit Zado",
         isAvailable: true,
       },
     ],
@@ -1001,6 +1029,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي بطيخ",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Watermelon Mint Café Slush.png",
+        imageAlt: "اسموزي بطيخ — Watermelon Smoothie",
         isAvailable: true,
       },
       {
@@ -1040,6 +1070,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي خوخ",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Café Peach Smoothie with Mint Garnish.png",
+        imageAlt: "اسموزي خوخ — Peach Smoothie",
         isAvailable: true,
       },
       {
@@ -1048,6 +1080,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "اسموزي كنتالوب",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Cantaloupe Café Smoothie Delight.png",
+        imageAlt: "اسموزي كنتالوب — Cantaloupe Smoothie",
         isAvailable: true,
       },
       {
@@ -1111,6 +1145,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionAr: "إسبريسو + صودا + فليفر موهيتو",
         badge: "Signature Craft",
         ingredients: ["Espresso", "Soda", "Mojito Flavor"],
+        image: "/images/drinks/BU-GA Café Espresso Tonic.png",
+        imageAlt: "إسبريسو صودا — Espresso Soda",
         isAvailable: true,
       },
       {
@@ -1134,6 +1170,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionAr: "فليفر فراولة + صودا + برتقال فريش",
         badge: "House Favorite",
         ingredients: ["Strawberry Syrup", "Soda", "Fresh Orange"],
+        image: "/images/drinks/Sunrise Citrus Café Cocktail.png",
+        imageAlt: "صن شاين — Sunshine",
         isAvailable: true,
       },
     ],
@@ -1233,6 +1271,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "1 بولة آيس كريم",
         price: 25.0,
         formattedPrice: "25.00 EGP",
+        image: "/images/drinks/BU-GA Café Chocolate Mint Sundae.png",
+        imageAlt: "1 بولة آيس كريم — 1 Scoop Ice Cream",
         isAvailable: true,
       },
       {
@@ -1241,6 +1281,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "2 بولة آيس كريم",
         price: 40.0,
         formattedPrice: "40.00 EGP",
+        image: "/images/drinks/Decadent Chocolate-Mint Ice Cream Café Scene.png",
+        imageAlt: "2 بولة آيس كريم — 2 Scoops Ice Cream",
         isAvailable: true,
       },
       {
@@ -1260,6 +1302,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         badge: "House Signature",
         descriptionEn: "Triple scoop ice cream crowned with freshly sliced fruits and roasted nuts",
         descriptionAr: "آيس كريم فاخر مغطى بقطع الفواكه الطازجة والمكسرات",
+        image: "/images/drinks/Luxurious Triple-Scoop Café Sundae.png",
+        imageAlt: "آيس بوجا فروت — Ice BU-GA Fruit",
         isAvailable: true,
       },
     ],
