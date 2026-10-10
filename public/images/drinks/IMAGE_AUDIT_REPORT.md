@@ -1,6 +1,6 @@
 # BU-GA Café — تقرير التدقيق الشامل لصور المشروبات (Drink Image Audit Report)
 
-**تاريخ التقرير:** 2026-10-10 (تحديث شامل لربط الصور الجديدة وتدقيق الأصناف)  
+**تاريخ التقرير:** 2026-10-10 (تحديث شامل بعد ربط الدفعة الثانية من الصور الجديدة)  
 **المشروع:** BU-GA Café Web Application  
 **المصدر المعتمد:** `src/data/menuData.ts`  
 
@@ -12,34 +12,22 @@
 | :--- | :--- | :--- |
 | **إجمالي أصناف المنيو (Total Menu Items)** | **112** صنف | 100% |
 | **إجمالي تصنيفات المنيو (Total Categories)** | **12** تصنيف | 100% |
-| **إجمالي ملفات الصور بالمجلد (`public/images/drinks`)** | **125** ملف صورة (+3 توثيق) | — |
-| **الأصناف المرتبطة بصور صحيحة ومفحوصة (Connected Items)** | **103** صنف | **92.0%** ⬆️ |
-| **الأصناف الناقصة المتبقية (Missing Items)** | **9** أصناف | **8.0%** ⬇️ |
+| **إجمالي ملفات الصور بالمجلد (`public/images/drinks`)** | **133** ملف صورة (+3 توثيق) | — |
+| **الأصناف المرتبطة بصور صحيحة ومفحوصة (Connected Items)** | **111** صنف | **99.1%** ⬆️ |
+| **الأصناف الناقصة المتبقية (Missing Items)** | **1** صنف فقط (`ic-3`) | **0.9%** ⬇️ |
 
-> **التغييرات في هذا التحديث:**
-> تم ربط **22 صنفاً جديداً** بالصور الفوتوغرافية عالية الجودة التي تم إنتاجها وحفظها في المجلد، بدون أي تكرار لصورة بين صنفين وبدون تعديل لأي صنف كان مرتبطاً بصورة صحيحة مسبقاً:
-> 1. `ms-16` ميلك وايت كيت كات ← `White Chocolate KitKat Café Milkshake.png`
-> 2. `fj-3` جوافة فريش ← `Premium Guava Café Drink Still Life.png`
-> 3. `fj-7` بطيخ فريش ← `Watermelon Café Delight.png`
-> 4. `fj-8` بطيخ نعناع ← `Watermelon Mint Café Cooler.png`
-> 5. `fj-11` ميكس مانجو كيوي ← `Tropical Mango Kiwi Café Smoothie.png`
-> 6. `fj-12` ميكس مانجو خوخ ← `Mango Peach Smoothie at BU-GA Café.png`
-> 7. `fj-15` ميكس خوخ فراولة ← `Peach Strawberry Café Smoothie.png`
-> 8. `fj-17` جوافة جوز الهند ← `Guava Coconut Café Smoothie.png`
-> 9. `zd-1` زبادو عسل ← `Honey Granola Café Dream.png`
-> 10. `zd-2` زبادو مانجو ← `Mango Mint Café Parfait Still Life.png`
-> 11. `zd-3` زبادو فراولة ← `Strawberry Cream Café Delight.png`
-> 12. `zd-4` زبادو كيوي ← `Kiwi Café Smoothie Delight.png`
-> 13. `zd-5` زبادو بلوبيري ← `Blueberry Café Dream with Mint and Cream.png`
-> 14. `zd-6` زبادو فروت ← `Tropical Fruit Yogurt Café Delight.png`
-> 15. `sm-3` اسموزي بطيخ ← `Watermelon Mint Café Slush.png`
-> 16. `sm-7` اسموزي خوخ ← `Café Peach Smoothie with Mint Garnish.png`
-> 17. `sm-8` اسموزي كنتالوب ← `Cantaloupe Café Smoothie Delight.png`
-> 18. `sd-3` إسبريسو صودا ← `BU-GA Café Espresso Tonic.png`
-> 19. `sd-5` صن شاين ← `Sunrise Citrus Café Cocktail.png`
-> 20. `ic-1` 1 بولة آيس كريم ← `BU-GA Café Chocolate Mint Sundae.png`
-> 21. `ic-2` 2 بولة آيس كريم ← `Decadent Chocolate-Mint Ice Cream Café Scene.png`
-> 22. `ic-4` آيس بوجا فروت ← `Luxurious Triple-Scoop Café Sundae.png`
+> **التغييرات في هذا التحديث (ربط 8 أصناف جديدة من النواقص التسعة):**
+> تم فحص الصور الثماني الجديدة التي تم حفظها في المجلد، ومطابقتها بصرياً وبالاسم مع الأصناف، وربطها بدون أي تكرار وبدون تعديل لأي صنف كان مرتبطاً بصورة صحيحة مسبقاً:
+> 1. `ms-1` ميلك شيك فانيليا ← `Luxurious Vanilla Milkshake Café Still Life.png`
+> 2. `sd-4` إسبريسو تويست ← `Citrus Espresso at BU-GA Café.png`
+> 3. `sft-5` رد بـول ← `Red Bull and Citrus Café Refreshment.png`
+> 4. `sft-6` مياه صغيرة ← `BU-GA Café Bottled Water Glow.png`
+> 5. `sft-7` كوب ثلج ← `BU-GA Café Ice Delight.png`
+> 6. `fs-1` فروت سلاد سلايز ← `Luxurious Café Fruit Platter with Honey and Mint.png`
+> 7. `fs-2` فروت سلاد باسكت ← `BU-GA Café Fruit Basket Delight.png`
+> 8. `fs-3` فروت سلاد آيس ← `BU-GA Café Fruit Ice Cream Sundae.png`
+> 
+> أما الصنف التاسع: `ic-3` (3 بولة آيس كريم) فتبين بعد الفحص الشامل لجميع ملفات المجلد الـ 133 عدم وجود صورة خاصة به على القرص، وسُجّل كناقص بدقة لمنع اختلاق مسار أو تكرار صورة صنف آخر.
 
 ---
 
@@ -51,15 +39,15 @@
 | 2 | **Cold Coffee** | القهوة الباردة | 15 | 15 | 0 | **100%** |
 | 3 | **Hot Chocolate** | الشيكولاتة الساخنة | 4 | 4 | 0 | **100%** |
 | 4 | **Hot Drinks** | المشروبات الساخنة | 10 | 10 | 0 | **100%** |
-| 5 | **Milkshake** | ميلك شيك | 16 | 15 | 1 | **93.8%** ⬆️ |
-| 6 | **Fresh Juice** | عصائر فريش | 17 | 17 | 0 | **100%** ⬆️ |
-| 7 | **Zado** | زبادو | 6 | 6 | 0 | **100%** ⬆️ |
-| 8 | **Smoothie** | اسموزي | 9 | 9 | 0 | **100%** ⬆️ |
-| 9 | **Soda Specials & Mojitos** | مشروبات الصودا والموهيتو | 5 | 4 | 1 | **80.0%** ⬆️ |
-| 10 | **Soft Drinks** | مشروبات غازية | 7 | 4 | 3 | **57.1%** |
-| 11 | **Ice Cream** | آيس كريم | 4 | 3 | 1 | **75.0%** ⬆️ |
-| 12 | **Fruit Salad** | فروت سلاد | 3 | 0 | 3 | **0%** |
-| **المجموع** | **12 تصنيف** | **BU-GA Café** | **112** | **103** | **9** | **92.0%** |
+| 5 | **Milkshake** | ميلك شيك | 16 | 16 | 0 | **100%** ⬆️ |
+| 6 | **Fresh Juice** | عصائر فريش | 17 | 17 | 0 | **100%** |
+| 7 | **Zado** | زبادو | 6 | 6 | 0 | **100%** |
+| 8 | **Smoothie** | اسموزي | 9 | 9 | 0 | **100%** |
+| 9 | **Soda Specials & Mojitos** | مشروبات الصودا والموهيتو | 5 | 5 | 0 | **100%** ⬆️ |
+| 10 | **Soft Drinks** | مشروبات غازية | 7 | 7 | 0 | **100%** ⬆️ |
+| 11 | **Ice Cream** | آيس كريم | 4 | 3 | 1 | **75.0%** |
+| 12 | **Fruit Salad** | فروت سلاد | 3 | 3 | 0 | **100%** ⬆️ |
+| **المجموع** | **12 تصنيف** | **BU-GA Café** | **112** | **111** | **1** | **99.1%** |
 
 ---
 
@@ -138,11 +126,11 @@
 
 ---
 
-### 5. Milkshake (ميلك شيك) — [15/16 مربوطة — 93.8%]
+### 5. Milkshake (ميلك شيك) — [16/16 مربوطة — 100%] ⬆️
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
-| 1 | `ms-1` | ميلك شيك فانيليا | Vanilla Milkshake | 80.00 EGP | *لا يوجد* | ❌ ناقصة |
+| 1 | `ms-1` | ميلك شيك فانيليا | Vanilla Milkshake | 80.00 EGP | `/images/drinks/Luxurious Vanilla Milkshake Café Still Life.png` | ✅ 🆕 |
 | 2 | `ms-2` | ميلك شيك شوكولاتة | Chocolate Milkshake | 80.00 EGP | `/images/drinks/Decadent BU-GA Café Chocolate Milkshake.png` | ✅ |
 | 3 | `ms-3` | ميلك شيك فراولة | Strawberry Milkshake | 80.00 EGP | `/images/drinks/Decadent Strawberry Café Milkshake.png` | ✅ |
 | 4 | `ms-4` | ميلك شيك مانجو | Mango Milkshake | 80.00 EGP | `/images/drinks/Luxurious Mango Café Milkshake Delight.png` | ✅ |
@@ -157,7 +145,7 @@
 | 13 | `ms-13` | ميلك أوريو | Oreo Milkshake | 90.00 EGP | `/images/drinks/Cookies-and-Cream Café Indulgence.png` | ✅ |
 | 14 | `ms-14` | ميلك وايت أوريو | White Oreo Milkshake | 90.00 EGP | `/images/drinks/Vanilla Cookie Café Milkshake.png` | ✅ |
 | 15 | `ms-15` | ميلك كيت كات | KitKat Milkshake | 90.00 EGP | `/images/drinks/Luxurious Chocolate Wafer Café Milkshake.png` | ✅ |
-| 16 | `ms-16` | ميلك وايت كيت كات | White KitKat Milkshake | 90.00 EGP | `/images/drinks/White Chocolate KitKat Café Milkshake.png` | ✅ 🆕 |
+| 16 | `ms-16` | ميلك وايت كيت كات | White KitKat Milkshake | 90.00 EGP | `/images/drinks/White Chocolate KitKat Café Milkshake.png` | ✅ |
 
 ---
 
@@ -167,21 +155,21 @@
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
 | 1 | `fj-1` | مانجو | Fresh Mango Juice | 70.00 EGP | `/images/drinks/Café Mango Glow Still Life.png` | ✅ |
 | 2 | `fj-2` | فراولة | Fresh Strawberry Juice | 70.00 EGP | `/images/drinks/Cinematic Strawberry Café Smoothie.png` | ✅ |
-| 3 | `fj-3` | جوافة | Fresh Guava Juice | 70.00 EGP | `/images/drinks/Premium Guava Café Drink Still Life.png` | ✅ 🆕 |
+| 3 | `fj-3` | جوافة | Fresh Guava Juice | 70.00 EGP | `/images/drinks/Premium Guava Café Drink Still Life.png` | ✅ |
 | 4 | `fj-4` | جوافة باللبن | Guava with Milk | 75.00 EGP | `/images/drinks/Creamy Guava Café Smoothie.png` | ✅ |
 | 5 | `fj-5` | ليمون | Fresh Lemon Juice | 50.00 EGP | `/images/drinks/Vintage Café Lemonade Glow.png` | ✅ |
 | 6 | `fj-6` | ليمون نعناع | Lemon Mint Juice | 60.00 EGP | `/images/drinks/Mint-Lime Café Cooler.png` | ✅ |
-| 7 | `fj-7` | بطيخ | Fresh Watermelon Juice | 70.00 EGP | `/images/drinks/Watermelon Café Delight.png` | ✅ 🆕 |
-| 8 | `fj-8` | بطيخ نعناع | Watermelon Mint Juice | 75.00 EGP | `/images/drinks/Watermelon Mint Café Cooler.png` | ✅ 🆕 |
+| 7 | `fj-7` | بطيخ | Fresh Watermelon Juice | 70.00 EGP | `/images/drinks/Watermelon Café Delight.png` | ✅ |
+| 8 | `fj-8` | بطيخ نعناع | Watermelon Mint Juice | 75.00 EGP | `/images/drinks/Watermelon Mint Café Cooler.png` | ✅ |
 | 9 | `fj-9` | موز باللبن | Banana with Milk | 70.00 EGP | `/images/drinks/Café Banana Smoothie Still Life.png` | ✅ |
 | 10 | `fj-10` | برتقال | Fresh Orange Juice | 65.00 EGP | `/images/drinks/Premium Orange Juice Café Still Life.png` | ✅ |
-| 11 | `fj-11` | ميكس مانجو كيوي | Mix Mango & Kiwi | 80.00 EGP | `/images/drinks/Tropical Mango Kiwi Café Smoothie.png` | ✅ 🆕 |
-| 12 | `fj-12` | ميكس مانجو خوخ | Mix Mango & Peach | 80.00 EGP | `/images/drinks/Mango Peach Smoothie at BU-GA Café.png` | ✅ 🆕 |
+| 11 | `fj-11` | ميكس مانجو كيوي | Mix Mango & Kiwi | 80.00 EGP | `/images/drinks/Tropical Mango Kiwi Café Smoothie.png` | ✅ |
+| 12 | `fj-12` | ميكس مانجو خوخ | Mix Mango & Peach | 80.00 EGP | `/images/drinks/Mango Peach Smoothie at BU-GA Café.png` | ✅ |
 | 13 | `fj-13` | ميكس مانجو فراولة | Mix Mango & Strawberry | 80.00 EGP | `/images/drinks/Strawberry Mango Café Glow.png` | ✅ |
 | 14 | `fj-14` | ميكس بيري | Mix Berry Juice | 80.00 EGP | `/images/drinks/Berry Café Bliss on Copper.png` | ✅ |
-| 15 | `fj-15` | ميكس خوخ فراولة | Mix Peach & Strawberry | 80.00 EGP | `/images/drinks/Peach Strawberry Café Smoothie.png` | ✅ 🆕 |
+| 15 | `fj-15` | ميكس خوخ فراولة | Mix Peach & Strawberry | 80.00 EGP | `/images/drinks/Peach Strawberry Café Smoothie.png` | ✅ |
 | 16 | `fj-16` | فلوريدة | Florida Cocktail | 90.00 EGP | `/images/drinks/Tropical BU-GA Café Smoothie Still Life.png` | ✅ |
-| 17 | `fj-17` | جوافة جوز الهند | Guava & Coconut | 70.00 EGP | `/images/drinks/Guava Coconut Café Smoothie.png` | ✅ 🆕 |
+| 17 | `fj-17` | جوافة جوز الهند | Guava & Coconut | 70.00 EGP | `/images/drinks/Guava Coconut Café Smoothie.png` | ✅ |
 
 ---
 
@@ -189,12 +177,12 @@
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
-| 1 | `zd-1` | زبادو عسل | Honey Zado | 80.00 EGP | `/images/drinks/Honey Granola Café Dream.png` | ✅ 🆕 |
-| 2 | `zd-2` | زبادو مانجو | Mango Zado | 80.00 EGP | `/images/drinks/Mango Mint Café Parfait Still Life.png` | ✅ 🆕 |
-| 3 | `zd-3` | زبادو فراولة | Strawberry Zado | 80.00 EGP | `/images/drinks/Strawberry Cream Café Delight.png` | ✅ 🆕 |
-| 4 | `zd-4` | زبادو كيوي | Kiwi Zado | 80.00 EGP | `/images/drinks/Kiwi Café Smoothie Delight.png` | ✅ 🆕 |
-| 5 | `zd-5` | زبادو بلوبيري | Blueberry Zado | 80.00 EGP | `/images/drinks/Blueberry Café Dream with Mint and Cream.png` | ✅ 🆕 |
-| 6 | `zd-6` | زبادو فروت | Mixed Fruit Zado | 80.00 EGP | `/images/drinks/Tropical Fruit Yogurt Café Delight.png` | ✅ 🆕 |
+| 1 | `zd-1` | زبادو عسل | Honey Zado | 80.00 EGP | `/images/drinks/Honey Granola Café Dream.png` | ✅ |
+| 2 | `zd-2` | زبادو مانجو | Mango Zado | 80.00 EGP | `/images/drinks/Mango Mint Café Parfait Still Life.png` | ✅ |
+| 3 | `zd-3` | زبادو فراولة | Strawberry Zado | 80.00 EGP | `/images/drinks/Strawberry Cream Café Delight.png` | ✅ |
+| 4 | `zd-4` | زبادو كيوي | Kiwi Zado | 80.00 EGP | `/images/drinks/Kiwi Café Smoothie Delight.png` | ✅ |
+| 5 | `zd-5` | زبادو بلوبيري | Blueberry Zado | 80.00 EGP | `/images/drinks/Blueberry Café Dream with Mint and Cream.png` | ✅ |
+| 6 | `zd-6` | زبادو فروت | Mixed Fruit Zado | 80.00 EGP | `/images/drinks/Tropical Fruit Yogurt Café Delight.png` | ✅ |
 
 ---
 
@@ -204,29 +192,29 @@
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
 | 1 | `sm-1` | اسموزي مانجو | Mango Smoothie | 70.00 EGP | `/images/drinks/Golden Mango Café Delight.png` | ✅ |
 | 2 | `sm-2` | اسموزي فراولة | Strawberry Smoothie | 70.00 EGP | `/images/drinks/Strawberry Smoothie at BU-GA Café.png` | ✅ |
-| 3 | `sm-3` | اسموزي بطيخ | Watermelon Smoothie | 70.00 EGP | `/images/drinks/Watermelon Mint Café Slush.png` | ✅ 🆕 |
+| 3 | `sm-3` | اسموزي بطيخ | Watermelon Smoothie | 70.00 EGP | `/images/drinks/Watermelon Mint Café Slush.png` | ✅ |
 | 4 | `sm-4` | اسموزي ليمون نعناع | Lemon Mint Smoothie | 70.00 EGP | `/images/drinks/Citrus Mint Café Refresher.png` | ✅ |
 | 5 | `sm-5` | اسموزي بلوبيري | Blueberry Smoothie | 70.00 EGP | `/images/drinks/Luxurious Blueberry Café Smoothie.png` | ✅ |
 | 6 | `sm-6` | اسموزي كولا | Cola Smoothie | 70.00 EGP | `/images/drinks/BU-GA Café Cola Mint Cooler.png` | ✅ |
-| 7 | `sm-7` | اسموزي خوخ | Peach Smoothie | 70.00 EGP | `/images/drinks/Café Peach Smoothie with Mint Garnish.png` | ✅ 🆕 |
-| 8 | `sm-8` | اسموزي كنتالوب | Cantaloupe Smoothie | 70.00 EGP | `/images/drinks/Cantaloupe Café Smoothie Delight.png` | ✅ 🆕 |
+| 7 | `sm-7` | اسموزي خوخ | Peach Smoothie | 70.00 EGP | `/images/drinks/Café Peach Smoothie with Mint Garnish.png` | ✅ |
+| 8 | `sm-8` | اسموزي كنتالوب | Cantaloupe Smoothie | 70.00 EGP | `/images/drinks/Cantaloupe Café Smoothie Delight.png` | ✅ |
 | 9 | `sm-9` | اسموزي كيوي | Kiwi Smoothie | 70.00 EGP | `/images/drinks/Kiwi Smoothie at BU-GA Café.png` | ✅ |
 
 ---
 
-### 9. Soda Specials & Mojitos (مشروبات الصودا والموهيتو) — [4/5 مربوطة — 80%]
+### 9. Soda Specials & Mojitos (مشروبات الصودا والموهيتو) — [5/5 مربوطة — 100%] ⬆️
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
 | 1 | `sd-1` | موهيتو كلاسيك | Classic Mojito | 65.00 EGP | `/images/drinks/Mint-Lime Café Refreshment.png` | ✅ |
 | 2 | `sd-2` | موهيتو إسبشيال | Special Mojito | 75.00 EGP | `/images/drinks/BU-GA Café Lime Mint Fizz.png` | ✅ |
-| 3 | `sd-3` | إسبريسو صودا | Espresso Soda | 75.00 EGP | `/images/drinks/BU-GA Café Espresso Tonic.png` | ✅ 🆕 |
-| 4 | `sd-4` | إسبريسو تويست | Espresso Twist | 75.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 5 | `sd-5` | صن شاين | Sunshine | 75.00 EGP | `/images/drinks/Sunrise Citrus Café Cocktail.png` | ✅ 🆕 |
+| 3 | `sd-3` | إسبريسو صودا | Espresso Soda | 75.00 EGP | `/images/drinks/BU-GA Café Espresso Tonic.png` | ✅ |
+| 4 | `sd-4` | إسبريسو تويست | Espresso Twist | 75.00 EGP | `/images/drinks/Citrus Espresso at BU-GA Café.png` | ✅ 🆕 |
+| 5 | `sd-5` | صن شاين | Sunshine | 75.00 EGP | `/images/drinks/Sunrise Citrus Café Cocktail.png` | ✅ |
 
 ---
 
-### 10. Soft Drinks (مشروبات غازية) — [4/7 مربوطة — 57.1%]
+### 10. Soft Drinks (مشروبات غازية) — [7/7 مربوطة — 100%] ⬆️
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
@@ -234,9 +222,9 @@
 | 2 | `sft-2` | شـويبس | Schweppes | 40.00 EGP | `/images/drinks/BU-GA Café Lemon-Lime Fizz.png` | ✅ |
 | 3 | `sft-3` | فيـــروز | Fayrouz | 40.00 EGP | `/images/drinks/BU-GA Café Orange Fizz.png` | ✅ |
 | 4 | `sft-4` | شيري كولا | Cherry Cola | 75.00 EGP | `/images/drinks/BU-GA Café Citrus Cola Still Life.png` | ✅ |
-| 5 | `sft-5` | رد بـول | Red Bull | 80.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 6 | `sft-6` | مياه صغيرة | Small Mineral Water | 15.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 7 | `sft-7` | كوب ثلج | Ice Cup | 10.00 EGP | *لا يوجد* | ❌ ناقصة |
+| 5 | `sft-5` | رد بـول | Red Bull | 80.00 EGP | `/images/drinks/Red Bull and Citrus Café Refreshment.png` | ✅ 🆕 |
+| 6 | `sft-6` | مياه صغيرة | Small Mineral Water | 15.00 EGP | `/images/drinks/BU-GA Café Bottled Water Glow.png` | ✅ 🆕 |
+| 7 | `sft-7` | كوب ثلج | Ice Cup | 10.00 EGP | `/images/drinks/BU-GA Café Ice Delight.png` | ✅ 🆕 |
 
 ---
 
@@ -244,34 +232,27 @@
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
-| 1 | `ic-1` | 1 بولة آيس كريم | 1 Scoop Ice Cream | 25.00 EGP | `/images/drinks/BU-GA Café Chocolate Mint Sundae.png` | ✅ 🆕 |
-| 2 | `ic-2` | 2 بولة آيس كريم | 2 Scoops Ice Cream | 40.00 EGP | `/images/drinks/Decadent Chocolate-Mint Ice Cream Café Scene.png` | ✅ 🆕 |
+| 1 | `ic-1` | 1 بولة آيس كريم | 1 Scoop Ice Cream | 25.00 EGP | `/images/drinks/BU-GA Café Chocolate Mint Sundae.png` | ✅ |
+| 2 | `ic-2` | 2 بولة آيس كريم | 2 Scoops Ice Cream | 40.00 EGP | `/images/drinks/Decadent Chocolate-Mint Ice Cream Café Scene.png` | ✅ |
 | 3 | `ic-3` | 3 بولة آيس كريم | 3 Scoops Ice Cream | 60.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 4 | `ic-4` | آيس بوجا فروت | Ice BU-GA Fruit | 90.00 EGP | `/images/drinks/Luxurious Triple-Scoop Café Sundae.png` | ✅ 🆕 |
+| 4 | `ic-4` | آيس بوجا فروت | Ice BU-GA Fruit | 90.00 EGP | `/images/drinks/Luxurious Triple-Scoop Café Sundae.png` | ✅ |
 
 ---
 
-### 12. Fruit Salad (فروت سلاد) — [0/3 مربوطة — 0%]
+### 12. Fruit Salad (فروت سلاد) — [3/3 مربوطة — 100%] ⬆️
 
 | # | المعرف (ID) | اسم الصنف بالعربية | English Name | السعر | مسار الصورة | الحالة |
 | :-: | :--- | :--- | :--- | :-: | :--- | :-: |
-| 1 | `fs-1` | فروت سلاد سلايز | Fruit Salad Slices | 70.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 2 | `fs-2` | فروت سلاد باسكت | Fruit Salad Basket | 75.00 EGP | *لا يوجد* | ❌ ناقصة |
-| 3 | `fs-3` | فروت سلاد آيس | Fruit Salad with Ice Cream | 85.00 EGP | *لا يوجد* | ❌ ناقصة |
+| 1 | `fs-1` | فروت سلاد سلايز | Fruit Salad Slices | 70.00 EGP | `/images/drinks/Luxurious Café Fruit Platter with Honey and Mint.png` | ✅ 🆕 |
+| 2 | `fs-2` | فروت سلاد باسكت | Fruit Salad Basket | 75.00 EGP | `/images/drinks/BU-GA Café Fruit Basket Delight.png` | ✅ 🆕 |
+| 3 | `fs-3` | فروت سلاد آيس | Fruit Salad with Ice Cream | 85.00 EGP | `/images/drinks/BU-GA Café Fruit Ice Cream Sundae.png` | ✅ 🆕 |
 
 ---
 
-## 🎯 قائمة الأصناف الناقصة المتبقية بالترتيب (9 أصناف فقط)
+## 🎯 قائمة الأصناف الناقصة المتبقية (صنف واحد فقط في كامل المنيو)
 
-1. `ms-1` — **ميلك شيك فانيليا** (Vanilla Milkshake) — 80.00 EGP
-2. `sd-4` — **إسبريسو تويست** (Espresso Twist) — 75.00 EGP
-3. `sft-5` — **رد بـول** (Red Bull) — 80.00 EGP
-4. `sft-6` — **مياه صغيرة** (Small Mineral Water) — 15.00 EGP
-5. `sft-7` — **كوب ثلج** (Ice Cup) — 10.00 EGP
-6. `ic-3` — **3 بولة آيس كريم** (3 Scoops Ice Cream) — 60.00 EGP
-7. `fs-1` — **فروت سلاد سلايز** (Fruit Salad Slices) — 70.00 EGP
-8. `fs-2` — **فروت سلاد باسكت** (Fruit Salad Basket) — 75.00 EGP
-9. `fs-3` — **فروت سلاد آيس** (Fruit Salad with Ice Cream) — 85.00 EGP
+1. `ic-3` — **3 بولة آيس كريم** (3 Scoops Ice Cream) — 60.00 EGP  
+   *(لا تتوفر صورة خاصة به على القرص؛ سُجل كناقص بدقة لمنع التكرار أو التخمين).*
 
 ---
 
@@ -306,6 +287,6 @@
 
 ## ✅ سجل الفحوصات والتحقق البرمجي
 
-- **التحقق من الروابط والملفات:** كل الصور الـ 103 المرتبطة موجودة فعلياً في مجلد `public/images/drinks`.
-- **عدم التكرار:** لا توجد أي صورة مكررة بين أي صنفين في المنيو.
+- **التحقق من الروابط والملفات:** كل الصور الـ 111 المرتبطة موجودة فعلياً في مجلد `public/images/drinks`.
+- **عدم التكرار:** لا توجد أي صورة مكررة بين أي صنفين في كامل المنيو.
 - **التوافق:** جميع الأصناف متوافقة مع واجهة `MenuItem` في TypeScript.

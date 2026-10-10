@@ -571,6 +571,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "ميلك شيك فانيليا",
         price: 80.0,
         formattedPrice: "80.00 EGP",
+        image: "/images/drinks/Luxurious Vanilla Milkshake Café Still Life.png",
+        imageAlt: "ميلك شيك فانيليا — Vanilla Milkshake",
         isAvailable: true,
       },
       {
@@ -1158,6 +1160,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         descriptionEn: "Double espresso infused with sparkling citrus twist",
         descriptionAr: "إسبريسو + تويست",
         ingredients: ["Espresso", "Citrus Twist"],
+        image: "/images/drinks/Citrus Espresso at BU-GA Café.png",
+        imageAlt: "إسبريسو تويست — Espresso Twist",
         isAvailable: true,
       },
       {
@@ -1234,6 +1238,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 80.0,
         formattedPrice: "80.00 EGP",
         badge: "Energy",
+        image: "/images/drinks/Red Bull and Citrus Café Refreshment.png",
+        imageAlt: "رد بـول — Red Bull",
         isAvailable: true,
       },
       {
@@ -1242,6 +1248,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "مياه صغيرة",
         price: 15.0,
         formattedPrice: "15.00 EGP",
+        image: "/images/drinks/BU-GA Café Bottled Water Glow.png",
+        imageAlt: "مياه معدنية صغيرة — Small Mineral Water",
         isAvailable: true,
       },
       {
@@ -1250,6 +1258,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "كوب ثلج",
         price: 10.0,
         formattedPrice: "10.00 EGP",
+        image: "/images/drinks/BU-GA Café Ice Delight.png",
+        imageAlt: "كوب ثلج — Ice Cup",
         isAvailable: true,
       },
     ],
@@ -1325,6 +1335,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         nameAr: "فروت سلاد سلايز",
         price: 70.0,
         formattedPrice: "70.00 EGP",
+        image: "/images/drinks/Luxurious Café Fruit Platter with Honey and Mint.png",
+        imageAlt: "فروت سلاد سلايز — Fruit Salad Slices",
         isAvailable: true,
       },
       {
@@ -1334,6 +1346,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 75.0,
         formattedPrice: "75.00 EGP",
         badge: "Signature Bowl",
+        image: "/images/drinks/BU-GA Café Fruit Basket Delight.png",
+        imageAlt: "فروت سلاد باسكت — Fruit Salad Basket",
         isAvailable: true,
       },
       {
@@ -1343,6 +1357,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
         price: 85.0,
         formattedPrice: "85.00 EGP",
         badge: "Popular",
+        image: "/images/drinks/BU-GA Café Fruit Ice Cream Sundae.png",
+        imageAlt: "فروت سلاد مع آيس كريم — Fruit Salad with Ice Cream",
         isAvailable: true,
       },
     ],
